@@ -6,7 +6,7 @@ import { gameState } from "./simulator/gameState.js";
 import { generateGameEvent } from "./simulator/gameEventGenerator.js";
 import { EventQueue } from "./pipeline/eventQueue.js";
 import { processEvent } from "./pipeline/eventProcessor.js";
-import { Broadcaster } from "./websocket/broadcaster.js";
+import { Broadcaster } from "./websocket/eventBroadcaster.js";
 import { createHealthRouter } from "./routes/health.js";
 
 const app = express();
